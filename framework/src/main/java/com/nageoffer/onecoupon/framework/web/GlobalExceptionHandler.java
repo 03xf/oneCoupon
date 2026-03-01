@@ -65,7 +65,6 @@ public class GlobalExceptionHandler {
     /**
      * 拦截参数验证异常
      */
-    @SneakyThrows
     @ExceptionHandler(value = MethodArgumentNotValidException.class)
     public Result validExceptionHandler(HttpServletRequest request, MethodArgumentNotValidException ex) {
         BindingResult bindingResult = ex.getBindingResult();
