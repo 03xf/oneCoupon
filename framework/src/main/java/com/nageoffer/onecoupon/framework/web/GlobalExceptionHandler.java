@@ -40,7 +40,6 @@ import com.nageoffer.onecoupon.framework.errorcode.BaseErrorCode;
 import com.nageoffer.onecoupon.framework.exception.AbstractException;
 import com.nageoffer.onecoupon.framework.result.Result;
 import jakarta.servlet.http.HttpServletRequest;
-import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.StringUtils;
 import org.springframework.validation.BindingResult;
